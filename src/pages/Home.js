@@ -35,7 +35,7 @@ const Home = async () => {
 				</ul>
 			</div>
 			<div id="catalog" class="catalog">
-			<h2>Выбор магазина! Товары на скидке!</h2>
+			<h2>Выбор магазина! Товары на скидке !</h2>
 				<ul class='product-cont'>
 				${products}
 				</ul>
