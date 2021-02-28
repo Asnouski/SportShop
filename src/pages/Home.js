@@ -5,7 +5,7 @@ import Slider5 from "../images/slider5.jpeg";
 import "../styles/scss/main.scss";
 import { createProductcategory } from "../components/categoryList";
 
-const Home = async () => {
+const Home = async () => {  
 	const products = await createProductcategory("yes");
 	const view = `
 		<div class=" infomation">
